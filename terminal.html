@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Console - CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+	<h1>TERMINAL style</h1>
+	<h2>Single line:</h2>
+
+	<div class="single-line-code">
+		<p id="code-text">Hello World!<span id="cursor"> </span></p>
+	</div>
+
+	<h2>Multi line:</h2>
+	<div class="multi-line-code">
+		<p>Python -> [Django][webscraping][Selenium]</p>
+		<p>Web -> [HTML][CSS][Javascript][Bootstrap]</p>
+		<p>Mobile app development -> [IOS][Android]</p>
+		<p>SQL Git Bootstrap Jquery REST Ruby C#</p>
+		<p>Learn more ...
+		<span>|</span></p>
+	</div>
+
+	<h2>Static:</h2>
+	<div class="static-console">
+		<pre><output>
+			C: python
+			Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32
+			Type "help", "copyright", "credits" or "license" for more information.
+			>>> def timer(self):
+				if self.running is True:
+					if self.time <= 0:
+						showinfo(title="Alert", message="Time...")
+						if self.pomodoro_active is True:
+							self.time = 300
+							self.pomodoro_active = False
+						else:
+							self.time = 1500
+							self.pomodoro_active = True
+					self.time_label.config(text=self.calculate_time())
+					self.time -= 1
+					self.time_label.after(1000, self.timer)
+			>>>exit()
+			C:cls
+			C:exit
+		</pre>
+	</div>
+</div>
+
+
+</body>
+</html>
