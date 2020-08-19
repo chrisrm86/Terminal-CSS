@@ -1,2 +1,3 @@
 # Terminal-CSS
-Console emulation with CSS
+
+A simple terminal style with CSS.
